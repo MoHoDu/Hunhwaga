@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+
+    <link href="./image/icon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href = "dd.css" rel = "stylesheet" type = "text/css">
+    <meta name = "description" content = "An open source example of tile based collision detection and response including these collision shapes: half tiles, sloped tiles, platform tiles, curved tiles, and regular tiles.">
+    <meta name = "viewport" content = "width=device-width">
+
+    <title>헌화가 : 수로부인과 견우노옹</title>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <h1>헌화가 : 수로부인과 견우노옹</h1>
+
+    <div>
+        <div id="time">남은 시간 : <p id="timer"></p>초</div>
+        <canvas id="can"></canvas>
+        <!-- <div id="btn">
+            <button id="retry" onclick="setTime(60);">재시도</button>
+            <button id="restart">처음으로</button>
+        </div>         -->
+        <br>
+        <a>Track : 흐드러지다 </a>
+        <br>
+        <a>Composer : 눈솔 </a>
+        <br>
+        <a id="watch" href="https://youtu.be/nOBrp2wOPpQ">Watch : https://youtu.be/nOBrp2wOPpQ</a>
+    </div>
+
+    <audio id="player" autoplay loop controls>
+        <source src="./music/Full-Bloom-2019.mp3" type="audio/mp3">
+    </audio>
+    
+    <img id="chr" style="display: none;" src="./image/chracter.png">
+
+    <img id="wall" style="display: none;" src="./image/wall.png">
+    
+    <img id="back" style="display: none;" src="./image/back.png">
+
+    <img id="falldown" style="display: none;" src="./image/falldown.png">
+
+    <img id="gameover" style="display: none;" src="./image/gameover.png">
+
+    <script src="ddd.js" type="text/javascript"></script>
+
+</body>
+</html>

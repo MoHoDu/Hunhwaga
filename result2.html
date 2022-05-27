@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+
+    <link href="./image/icon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href = "result2.css" rel = "stylesheet" type = "text/css">
+    <meta name = "description" content = "An open source example of tile based collision detection and response including these collision shapes: half tiles, sloped tiles, platform tiles, curved tiles, and regular tiles.">
+    <meta name = "viewport" content = "width=device-width">
+
+    <title>헌화가 : 수로부인과 견우노옹</title>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <span></span>
+    <div id="title">
+        <h1>성공</h1>
+        <h3>"꽃을 든 노인"</h3>    
+    </div>
+    <div id="game">
+        <img id="bad" style="width: 304px; height: 304px;" src="./image/result2.png">
+        <br>
+        <div id="text">
+            <p>노인은 바람과 같이 절벽을 타더니 </p>
+            <p>금새 아름다운 철쭉을 쥐고 내려왔다.</p>
+            <p>이에 종자들은 말도 안 된다는 듯</p>
+            <p>멍하여 서있고, 부인은 기뻐하며 꽃을</p>
+            <p>받아 간직하였다. 그리고 이 상황을 </p>
+            <p>빗대어 가사를 지어 바쳤는데 </p>
+            <p>내용은 다음과 같다.</p>
+            <p>--------------------------</p>
+            <p><h4>헌화가</h4></p>
+            <p>紫布岩乎邊希</p>
+            <p>붉은 바위 가에</p>
+            <p>執音乎手母牛放敎遣</p>
+            <p>잡은 손 암소 놓이시고</p>
+            <p>吾肸不喩慚肸伊賜等</p>
+            <p>나를 아니 부끄러워하시면</p>
+            <p>花肸折叱可獻乎理音如</p>
+            <p>꽃을 꺾어 바치오리다.</p>
+            <br>
+        </div>
+        <div id="btn">
+            <button id="next" onClick="window.location.href = 'score.html?index=' + location.href.substr(location.href.lastIndexOf('=') + 1)">다음으로</button>
+        </div>        
+    </div>
+    <a id="score" style="display: none;"></a>
+
+    <script type="rext/javascript">
+        $(document).ready(function () {
+            var val = location.href.substr(
+                location.href.lastIndexOf('=') + 1
+            );
+            $('#score').val(val);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+
+}
+  
+html {
+
+    height:100%;
+    width:100%;
+
+}
+
+body {
+
+    align-content:space-around;
+    background-color:#4a4b4b;
+    color:#ffffff;
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto auto auto auto;
+    height:100%;
+    justify-content:space-around;
+    overflow:hidden;
+    text-align:center;
+    width:100%;
+
+}
+
+div #time {
+
+    display: grid;
+    grid-template-columns: 80% 15% 5%;
+    margin-bottom: 1vw;
+    text-align: right;
+
+}
+
+canvas {
+
+    align-self:center;
+    background-color:#b3d7e2;
+    display:grid;
+    justify-self:center;
+
+}
+
+#watch {
+    text-decoration: none;
+    color: white;
+}
+
+/* #btn {
+
+    display: none;
+
+}
+
+#retry {
+
+    font-size: 2vh;
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    margin-right:-4px;
+
+}
+
+#restart {
+
+    font-size: 2vh;
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    margin-left:-3px;
+
+}
+
+div #btn button {
+
+    border: 2px solid white; 
+    background-color: rgba(0,0,0,0);
+    color: white; 
+    padding: 5px;
+    margin: 1vh 0 0 0 ;
+
+}
+
+#btn button:hover {
+    color: white;
+    background-color: rgb(173, 218, 214);
+} */
+
+audio {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 3vh;
+
+}
